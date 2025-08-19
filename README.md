@@ -125,6 +125,16 @@ snippets:
 
 (For Chinese users: [中文文档](https://www.pybroker.com/zh_CN/latest/), courtesy of [Albert King](https://github.com/albertandking).)
 
+### Example: Crypto Telegram Agent
+
+An example agent that monitors top cryptocurrencies and sends BUY signals via Telegram is available at [examples/crypto_telegram_agent.py](examples/crypto_telegram_agent.py).
+
+Run it with:
+
+```bash
+TELEGRAM_BOT_TOKEN=your_token TELEGRAM_CHAT_ID=your_chat_id examples/run_crypto_agent.sh
+```
+
 ## Contact
 
 <img src="https://github.com/edtechre/pybroker/blob/master/docs/_static/email-image.png?raw=true">
